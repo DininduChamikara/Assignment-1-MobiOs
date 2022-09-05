@@ -7,6 +7,30 @@ public class User {
     private String fullname;
     private String address;
     private String nationality;
+    
+    public User(){
+        
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public void setNic(String nic) {
+        this.nic = nic;
+    }
+
+    public void setFullname(String fullname) {
+        this.fullname = fullname;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public void setNationality(String nationality) {
+        this.nationality = nationality;
+    }
 
     public User(String id, String nic, String fullname, String address, String nationality) {
         this.id = id;
