@@ -42,8 +42,7 @@ public class editUser extends HttpServlet {
         String fullname = request.getParameter("fullname");
         String address = request.getParameter("address");
         String nationality = request.getParameter("nationality");
-        
-        System.out.println("ID is " + id);
+  
         
         try{
             
